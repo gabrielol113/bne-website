@@ -15,7 +15,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+.layout{
+  width: 100%;
+  height: 90vh;
+}
+.layoutContainer{
+ display: flex;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +36,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@media screen and(min-width: 720px) {
+    
 }
